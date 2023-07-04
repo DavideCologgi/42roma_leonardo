@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="card.css">
+		<title>Vote me please!</title>
+	</head>
+	<body>
+		<br><br><p><h1>🚀To the infinite and beyond🚀</h1></p>
+		<div class="container">
+			<div class="box">
+				<div class="photo">
+					<img id="photo_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Matteo_Salvini_Viminale_crop.jpg/328px-Matteo_Salvini_Viminale_crop.jpg">
+				</div>
+				<table class="tab">
+					<tr><td id="name">Matthew Littlesave</td></tr>
+					<tr><td>I love green, the North Pole and scrapers</td></tr>
+					<tr><td id="note">42Padania</td></tr>
+				</table>
+				<div class="name_button">
+					<button onclick="changeName()">Change name</button>
+				</div>
+				<div class="photo_button">
+					<button onclick="changePhoto()">Change photo</button>
+				</div>
+				<div class="note_button">
+					<button onclick="changeNote()">Change 42</button>
+				</div>
+			</div>
+		</div>
+		<script>
+			function changeName() {
+				var curr_name = document.getElementById("name");
+				curr_name.innerText = "Construction site Elder";
+			}
+			function changePhoto() {
+				var curr_photo = document.getElementById("photo_img");
+				curr_photo.src = "https://images2-corrieredelveneto.corriereobjects.it/methode_image/2017/09/20/Treviso%20Belluno/Foto/anziani_cantieri.jpg";
+			}
+			function changeNote() {
+				var curr_note = document.getElementById("note");
+				curr_note.innerText = "We'll meet at the next 42 site";
+			}
+		</script>
+	</body>
+</html>
