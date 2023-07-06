@@ -14,7 +14,7 @@ function changeNote() {
 }
 
 function clone_Card() {
-    var card_to_clone = document.querySelector(".box");
-    var cloned_card = card_to_clone.cloneNode(true);
-    document.getElementById("card_container").appendChild(cloned_card);
+    var card = document.querySelector("#card");
+    var clone = card.cloneNode(true);
+	document.querySelector(".container").appendChild(clone);
 }

@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  h2 {
+    color: #008000; /* Colore verde per indicare successo */
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 250px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button[type="reset"],
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #008000; /* Colore verde per i pulsanti */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button[type="reset"]:hover,
+  input[type="submit"]:hover {
+    background-color: #006600; /* Colore verde scuro per il passaggio del mouse sui pulsanti */
+  }

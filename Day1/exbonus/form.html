@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign up!</title>
+		<link rel="stylesheet" type="text/css" href="form.css">
+		<script src="form.js"></script>
+	</head>
+	<body>
+		<h2>Sign up</h2>
+		<form action="Successo.html">
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname" maxlength="50" pattern="[^0-9]*" required title="Invalid first name"><br><br>
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname" maxlength="50" pattern="[^0-9]*" required title="Invalid last name"><br><br>
+			<laber for="gender">Gender:</laber><br><br>
+			<label for="male">Male</label>
+			<input type="radio" id="male" name="gender" value="Male" required title="Please select a gender">
+			<label for="female">Female</label>
+			<input type="radio" id="female" name="gender" value="Female" required title="Please select a gender"><br><br>
+			<label for="university">University:</label><br>
+			<select id="universities" required onsubmit="validateUni()">
+				<option value=""></option>
+				<option value="Sapienza">Sapienza</option>
+				<option value="Tor Vergata">Tor Vergata</option>
+				<option value="RomaTre">RomaTre</option>
+			</select><br><br>
+			<label for="zip_code">ZIP Code:</label><br>
+			<input type="text" id="zip_code" name="zip_code" maxlength="5" required oninput="validateZipCode()"><br><br>
+			<label for="worker">Student Worker</label>
+			<input type="checkbox" id="worker" name="worker" onchange="validateJob()"><br>
+			<label for="job_description">Job description:</label><br>
+			<textarea id="job_description" name="job_description" rows="10" cols="25" maxlength="80"></textarea><br><br>
+			<button type="reset">Reset</button>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
