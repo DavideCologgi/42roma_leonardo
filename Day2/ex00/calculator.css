@@ -1,0 +1,30 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: aliceblue;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+	margin-top: 250px;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 400px;
+	width: 25%;
+	align-items: center;
+	display: flex;
+	background-color: blanchedalmond;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container > * {
+	margin-bottom: 20px;
+}
