@@ -3,8 +3,8 @@
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 20px;
-	margin-left: 500px;
-	margin-right: 500px;
+	margin-left: 20px;
+	margin-right: 20px;
 	padding: 100px;
 	border: 3px solid;
 	background-color: antiquewhite;
@@ -35,5 +35,14 @@
 }
 
 body {
-	background-color: rgb(142, 85, 11);
+	background-color: rgb(190, 183, 175);
+}
+
+.toggle-view-button {
+    position: fixed;
+    height: 50px;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    background-color:crimson;
 }

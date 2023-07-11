@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lazy calculator</title>
+		<link rel="stylesheet" type="text/css" href="calculator.css">
+		<script src="calculator.js" type="module"></script>
+	</head>
+	<body>
+		<h1>The lazy calculator:</h1>
+		<div class="container">
+			<label for="fnum">First number:</label><br>
+			<input type="text" id="fnum" name="fnum" pattern="[0-9]+" required title="Insert a positive number">
+			<select id="operation" required title="Choose an operation">
+				<option value=""></option>
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value="/">/</option>
+			</select>
+			<label for="snum">Second number:</label><br>
+			<input type="text" id="snum" name="snum" pattern="[0-9]+" required title="Insert a positive number">
+			<button type="submit" id="calculateButton">Calculate me baby!</button>
+			<p id="result"></p>
+		</div>
+	</body>
+</html>
