@@ -3,7 +3,7 @@
 	<head>
 		<title>Lazy calculator</title>
 		<link rel="stylesheet" type="text/css" href="calculator.css">
-		<script src="calculator.js" type="module"></script>
+		<script src="calculator.js"></script>
 	</head>
 	<body>
 		<h1>The lazy calculator:</h1>
@@ -19,7 +19,7 @@
 			</select>
 			<label for="snum">Second number:</label><br>
 			<input type="text" id="snum" name="snum" pattern="[0-9]+" required title="Insert a positive number">
-			<button type="submit" id="calculateButton">Calculate me baby!</button>
+			<button type="submit" onclick="calculate()">Calculate me baby!</button>
 			<p id="result"></p>
 		</div>
 	</body>

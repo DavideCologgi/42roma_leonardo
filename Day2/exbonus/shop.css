@@ -1,48 +1,120 @@
-.product-card {
+body {
+	text-align: center;
+	background-color: whitesmoke;
+}
+
+h1 {
+	font-size: 100px;
+	color: crimson;
+}
+
+.card-layout {
+	height: 980px;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-top: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.card-layout .product {
+	position: relative;
 	padding: 100px;
-	border: 3px solid;
+	z-index: 1;
+	border: 3px solid black;
+	box-sizing: border-box;
 	background-color: antiquewhite;
 }
 
-.product-image {
-	width: 200px;
-	height: auto;
+.card-layout .product-id {
+	font-size: larger;
+	color: firebrick;
 }
 
-.product-title {
-	font-weight: bold;
-	margin-top: 10px;
+.card-layout img {
+	padding-top: 10px;
+	width: 300px;
+	height: 300px;
+	box-sizing: border-box;
 }
 
-.product-price {
-	font-weight: bold;
-	margin-top: 5px;
+.card-layout .product-title {
+	max-width: 300px;
+	text-align: center;
 }
 
-.product-description {
-	margin-top: 5px;
+.card-layout .product-description {
+	max-width: 300px;
+	text-align: left;
 }
 
-.product-category {
-	font-weight: bold;
-	margin-top: 5px;
+.list-layout {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 100px;
 }
 
-body {
-	background-color: rgb(190, 183, 175);
+.list-layout .product {
+	position: relative;
+	background-color: bisque;
+  	border: 3px solid black;
+ 	width: 100%;
+  	margin-bottom: 10px;
+  	padding: 10px;
+  	display: flex;
+  	align-items: center;
+	padding: 10px;
 }
 
-.toggle-view-button {
-    position: fixed;
-    height: 50px;
-    top: 10px;
-    right: 10px;
-    font-weight: bold;
-    background-color:crimson;
+.list-layout .product-id {
+	padding-left: 25px;
+	font-size: larger;
+	color: rgb(174, 5, 39);
+}
+
+.list-layout img {
+	flex: 0 0 30px;
+	height: 100px;
+	margin-right: 10px;
+	padding-left: 40px;
+}
+
+.list-layout .product-title {
+	padding-left: 20px;
+}
+
+.list-layout .product-price {
+	padding-left: 100px;
+}
+
+.list-layout .product-category {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.list-layout .product-description {
+	padding-left: 100px;
+	max-width: fit-content;
+}
+
+.details-container {
+	position: relative;
+	margin-top: 20px;
+}
+  
+.details-container details {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 30px;
+	margin-right: 20px;
+	font-size: 30px;
+	font-weight: bolder;
 }

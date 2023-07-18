@@ -5,11 +5,11 @@ function calculate() {
 	var final_num = document.getElementById("result");
 
 	if (isNaN(first_num) || isNaN(second_num)) {
-		final_num.textContent = "I'm a calculator.....use numbers";
+		alert("I'm a calculator.....use numbers");
 		return ;
 	}
 	if (first_num < 0 || second_num < 0) {
-		final_num.textContent = "I'm tired, use only positive numbers please";
+		alert("I'm tired, use only positive numbers please");
 		return ;
 	}
 	var result;
