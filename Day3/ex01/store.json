@@ -1,0 +1,36 @@
+[{
+    "id": 1,
+    "title": "God of War Ragnarok",
+    "price": 79.98,
+    "description": "Kratos e Atreus intraprendono un mitico viaggio alla ricerca di risposte e alleati prima che sopraggiunga il Ragnarök. È in arrivo dagli sviluppatori di Santa Monica Studio il sequel dell'apprezzatissimo God of War (2018). Kratos e Atreus devono esplorare ognuno dei nove regni, alla ricerca di risposte mentre si preparano all'annunciata battaglia che segnerà la fine del mondo.",
+    "category": "Videogiochi",
+    "image": "https://static-it.gamestop.it/images/products/311553/3max.jpg"
+  }, {
+    "id": 2,
+    "title": "Fifa23",
+    "price": 39.98,
+    "description": "EA SPORTS™ FIFA 23 porta l'azione e il realismo del gioco più bello del mondo a un nuovo livello, grazie ai progressi della tecnologia HyperMotion2 che può contare ora sul doppio delle movenze di atleti reali per offrire animazioni ancora più realistiche in ogni partita. Gioca i più importanti tornei calcistici, con la FIFA World Cup™ maschile e femminile in arrivo su FIFA 23 durante la stagione, scendi in campo per la prima volta con i club femminili, con animazioni dedicate ottenute tramite la tecnologia HyperMotion2, e sfrutta le funzionalità cross-play per rendere ancora più semplice giocare con gli amici.",
+    "category": "Videogiochi",
+    "image": "https://static-it.gamestop.it/images/products/308404/3max.jpg"
+  }, {
+    "id": 3,
+    "title": "Nintendo Switch OLED Color Neon",
+    "price": 349.98,
+    "description": "Divertiti con i tuoi giochi preferiti dove e quando vuoi, con la nuova Nintendo Switch OLED color Neon. Dotata di uno schermo OLED da 7 pollici, ti catturerà con i suoi colori intensi e il contrasto elevato. Cosa aspetti? Acquistala subito!",
+    "category": "Console",
+    "image": "https://static-it.gamestop.it/images/products/295437/3max.jpg"
+  }, {
+    "id": 4,
+    "title": "Tappetino Nacon - MM400",
+    "price": 15.98,
+    "description": "NACON PC MM400. Colore del prodotto: Nero, Colorazione superficie: Monocromatico, Materiali: Neoprene. Larghezza: 900 mm, Profondità: 315 mm, Spessore: 5 mm.",
+    "category": "Accessori",
+    "image": "https://static-it.gamestop.it/images/products/292583/3max.jpg"
+  }, {
+    "id": 5,
+    "title": "Funko Pop! - Balrog",
+    "price": 29.98,
+    "description": "FUNKO Pop! Lord Of the Rings, collezionali tutti! Realizzate in PVC (Vinile), queste miniature sono resistenti e curate nei minimi dettagli. Una versione stilizzata – e ironica – dei tuoi personaggi preferiti: film, cartoni animati, libri, fumetti, programmi televisivi e molto altro! Un oggetto da collezione moderno e simpatico, dallo stile inconfondibile.",
+    "category": "Collezionabili",
+    "image": "https://static-it.gamestop.it/images/products/279320/3max.jpg"
+  }]

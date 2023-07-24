@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<title>NerdShark</title>
+		<link rel="stylesheet" href="shop.css">
+		<script src="shop.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	</head>
+	<body>
+		<h1>NerdShark</h1>
+		<div class="topnav">
+			<a href="#cart">Carrello
+				<i class="fas fa-shopping-cart"></i>
+				<span id="cart-counter">0</span>
+			</a>
+			<a href="#profile">Profilo</a>
+			<a class="active" href="#buy">Negozio</a>
+			<a href="#home">Home</a>
+		</div>
+		<div class="card-layout" id="container">
+			<button class="layout_button" onclick="Change_layout()">Change layout</button>
+		</div>
+		<div id="modal" class="modal">
+			<div class="modal-content">
+				<p>Aggiungere il prodotto al carrello?</p>
+				<button id="yes_button" class="button">Aggiungi</button>
+				<button id="no_button" class="button">Indietro</button>
+			</div>
+		</div>
+		<div class="footer">@Copyright dcologgi 2023-Tutti i diritti riservati</div>
+	</body>
+</html>
